@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: #1d6311;
+}
+
+h1 {
+    color: #17b2bd;
+}
+
+button {
+    padding: 15px;
+    background-color: #871a18;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    display: none;
+    margin: 0 auto;
+}
+  
+button:hover {
+    cursor: pointer;
+    background-color: #17b2bd;
+}
+  
+button:active, button:focus {
+    outline: none;
+}
+  
+#card_place {
+    margin-top: 80px;
+}
+  
+#card_place > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+  
